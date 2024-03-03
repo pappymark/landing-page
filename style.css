@@ -42,8 +42,6 @@
     background-color: #1F2937;
     padding: 150px;
 
-    
-
 }
 
 .textHolder {
@@ -61,14 +59,20 @@
     font-weight: bolder;
 }
 
+.textHolder p {
+    flex: 1;
+    text-align: left;
+    
+}
+
 #btn {
+    margin-top: 20px;
+    flex: 1;
     border-radius: 10px;
     text-align: center;
-    position: absolute;
     height: 30px;
     width: 100px;
     background-color: #3882f6;
-    top: 555px;
     
 }
 
@@ -91,6 +95,7 @@
 .image {
     
     background-color: #7a7a7a;
+    height: 250px;
     width: 400px;
     margin: 15px;
     color: white;
